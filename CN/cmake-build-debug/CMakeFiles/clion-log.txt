@@ -1,0 +1,6 @@
+/home/denyhs/JetBrains/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/denyhs/Documentos/Faculdade/SecondYear/CN
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: CN
+CMake Error: Cannot determine link language for target "CN".
+-- Generating done
+-- Build files have been written to: /home/denyhs/Documentos/Faculdade/SecondYear/CN/cmake-build-debug
