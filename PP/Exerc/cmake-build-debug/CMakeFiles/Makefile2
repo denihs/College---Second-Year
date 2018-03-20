@@ -54,45 +54,45 @@ RM = /home/denyhs/JetBrains/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/denyhs/Documentos/Faculdade/SecondYear/aed
+CMAKE_SOURCE_DIR = /home/denyhs/Documentos/Faculdade/SecondYear/PP/Exerc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/denyhs/Documentos/Faculdade/SecondYear/aed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/denyhs/Documentos/Faculdade/SecondYear/PP/Exerc/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/aed.dir
+# Target rules for target CMakeFiles/Exerc.dir
 
 # All Build rule for target.
-CMakeFiles/aed.dir/all:
-	$(MAKE) -f CMakeFiles/aed.dir/build.make CMakeFiles/aed.dir/depend
-	$(MAKE) -f CMakeFiles/aed.dir/build.make CMakeFiles/aed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denyhs/Documentos/Faculdade/SecondYear/aed/cmake-build-debug/CMakeFiles --progress-num= "Built target aed"
-.PHONY : CMakeFiles/aed.dir/all
+CMakeFiles/Exerc.dir/all:
+	$(MAKE) -f CMakeFiles/Exerc.dir/build.make CMakeFiles/Exerc.dir/depend
+	$(MAKE) -f CMakeFiles/Exerc.dir/build.make CMakeFiles/Exerc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denyhs/Documentos/Faculdade/SecondYear/PP/Exerc/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Exerc"
+.PHONY : CMakeFiles/Exerc.dir/all
 
 # Include target in all.
-all: CMakeFiles/aed.dir/all
+all: CMakeFiles/Exerc.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/aed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denyhs/Documentos/Faculdade/SecondYear/aed/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denyhs/Documentos/Faculdade/SecondYear/aed/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/aed.dir/rule
+CMakeFiles/Exerc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denyhs/Documentos/Faculdade/SecondYear/PP/Exerc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Exerc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denyhs/Documentos/Faculdade/SecondYear/PP/Exerc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Exerc.dir/rule
 
 # Convenience name for target.
-aed: CMakeFiles/aed.dir/rule
+Exerc: CMakeFiles/Exerc.dir/rule
 
-.PHONY : aed
-
-# clean rule for target.
-CMakeFiles/aed.dir/clean:
-	$(MAKE) -f CMakeFiles/aed.dir/build.make CMakeFiles/aed.dir/clean
-.PHONY : CMakeFiles/aed.dir/clean
+.PHONY : Exerc
 
 # clean rule for target.
-clean: CMakeFiles/aed.dir/clean
+CMakeFiles/Exerc.dir/clean:
+	$(MAKE) -f CMakeFiles/Exerc.dir/build.make CMakeFiles/Exerc.dir/clean
+.PHONY : CMakeFiles/Exerc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Exerc.dir/clean
 
 .PHONY : clean
 

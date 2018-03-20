@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/main.c">
+		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/Exer">
 			<Option target="aed"/>
 		</Unit>
 		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/CMakeLists.txt">
