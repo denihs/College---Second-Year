@@ -16,7 +16,7 @@ void calc(int x) {
     for (n=0; n < 11; n++) {
         sum += pow(x, n) / fac(n);
     }
-    printf("Result -> %.9f\n", sum);
+    printf("Result -> %.9f\na", sum);
 }
 
 int fac(int V) {

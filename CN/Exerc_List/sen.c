@@ -5,7 +5,7 @@ int fac(int V);
 double sen(double x);
 
 int main() {
-    double x = 0;
+    double x = 1;
     printf("%.9f", sen(x));
     return 0;
 }
