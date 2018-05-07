@@ -3,4 +3,4 @@ project(aed C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(aed Exer)
+add_executable(aed Exer Lista_Exerc New_List)

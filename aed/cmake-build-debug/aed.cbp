@@ -81,6 +81,12 @@
 		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/Exer">
 			<Option target="aed"/>
 		</Unit>
+		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/Lista_Exerc">
+			<Option target="aed"/>
+		</Unit>
+		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/New_List">
+			<Option target="aed"/>
+		</Unit>
 		<Unit filename="/home/denyhs/Documentos/Faculdade/SecondYear/aed/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

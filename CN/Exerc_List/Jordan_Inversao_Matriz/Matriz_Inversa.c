@@ -3,9 +3,9 @@
 #include "DinamicAlocation.h"
 
 int validarEntrada();
-int setMatrizInversa(float ** M, int x);
+void setMatrizInversa(float ** M, int x);
 void divisoesSucessivas(float ** M, int TAM);
-int trocarLinha(float ** M, int TAM, int n);
+void trocarLinha(float ** M, int TAM, int n);
 
 int main() {
     float **Matriz, determinante;
@@ -41,11 +41,10 @@ int validarEntrada(){
     return x;
 }
 
-int setMatrizInversa(float ** M, int x) {
-    int n_troca=0;
+void setMatrizInversa(float ** M, int x) {
     float m, L;
     for (int pivo = 0; pivo < x ; pivo++) {
-        if (trocarLinha(M, x, pivo)) { n_troca++; }
+        trocarLinha(M, x, pivo);
         for (int linha = 0; linha < x; linha++) {
             if(M[pivo][pivo]!=0){
                 if(linha != pivo){
@@ -59,7 +58,6 @@ int setMatrizInversa(float ** M, int x) {
 
         }
     }
-    return n_troca;
 }
 
 void divisoesSucessivas(float ** M, int TAM) {
@@ -74,7 +72,7 @@ void divisoesSucessivas(float ** M, int TAM) {
     }
 }
 
-int trocarLinha(float ** M, int TAM, int n) {
+void trocarLinha(float ** M, int TAM, int n) {
     float v1, v2;
 
     if(M[n][n]==0){
@@ -84,8 +82,6 @@ int trocarLinha(float ** M, int TAM, int n) {
             M[n][i] = v2;
             M[n + 1][i] = v1;
         }
-        return 1;
     }
-    return 0;
 }
 
